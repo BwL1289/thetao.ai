@@ -141,6 +141,7 @@ html {
 
 .intro-info {
     position: absolute;
+    text-align: center;
     left: 0;
     right: 0;
     max-width: 797px;
