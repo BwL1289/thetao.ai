@@ -1,6 +1,11 @@
 var cycleText = [
-  'event driven.',
-  'domain driven.'
+  'incremental.',
+  'adaptable.',
+  'orchestrated.',
+  'evolutionary.',
+  'agile.',
+  'domain driven.',
+  'event oriented.'
 ];
 
 for(var i = 0; i < cycleText.length; i++) {

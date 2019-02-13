@@ -3,6 +3,7 @@ var cycleText = [
   'adaptable.',
   'orchestrated.',
   'evolutionary.',
+  'agile.',
   'domain driven.',
   'event oriented.'
 ];
