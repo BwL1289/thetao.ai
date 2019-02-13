@@ -1,6 +1,9 @@
 var cycleText = [
-  'relevant.',
-  'effective.'
+  'incremental.',
+  'adaptable.',
+  'evolutionary.',
+  'domain driven.',
+  'event oriented.'
 ];
 
 for(var i = 0; i < cycleText.length; i++) {
@@ -16,18 +19,18 @@ $( document ).ready(function() {
 setInterval(function() {
   var $current = $('.text .cycle .item.current');
   var currentNum = $current.data('cycle-num');
-  
+
   $('.text .cycle .item.last').removeClass('last');
   $current.removeClass('current');
   $current.addClass('last');
-  
+
   var next = 1;
   if(currentNum !== cycleLength) next = currentNum + 1;
-  
+
   $('.text .cycle .item').filter(function() {
     return $(this).data('cycle-num') == next;
   }).addClass('current');
-  
+
   console.log(next);
 }, 2000);
 
@@ -43,9 +46,9 @@ items: 1,
     stagePadding:0,
     smartSpeed: 450,
     nav: false,
-autoplay:true,    
+autoplay:true,
 autoplayHoverPause:false,
-    loop:true   
+    loop:true
 });
 $(".move-bottom-button").click(function() {
     $('html,body').animate({

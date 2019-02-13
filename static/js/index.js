@@ -1,6 +1,6 @@
 var cycleText = [
-  'relevant.',
-  'effective.'
+  'event driven.',
+  'domain driven.'
 ];
 
 for(var i = 0; i < cycleText.length; i++) {
