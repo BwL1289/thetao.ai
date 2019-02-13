@@ -1,6 +1,7 @@
 var cycleText = [
   'incremental.',
   'adaptable.',
+  'orchestrated.',
   'evolutionary.',
   'domain driven.',
   'event oriented.'
