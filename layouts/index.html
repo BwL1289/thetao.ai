@@ -8,7 +8,7 @@
 </head>
 <body>
 {{ partial "navbar.html" .}}
-<section class="home-screen"> <a href="#" class="move-bottom-button"><img src="{{ .Page.Site.BaseURL }}/img/mouse-icon.png"/></a>
+<section class="home-screen"> <a href="#" class="move-bottom-button"><img src="{{ .Site.BaseURL }}/img/mouse-icon.png"/></a>
   <div class="intro-info">
         <h1 class="intro-title">
           build tech and teams
@@ -32,8 +32,8 @@
       <img src="img/banner02.jpg" class="img-responsive" > </div>
     <div class="item">
 
-       <img src="{{ .Page.Site.BaseURL }}/img/banner-01.jpg" class="img-responsive"> </div>
-    <div class="item"> <img src="{{ .Page.Site.BaseURL }}/img/banner.jpg" class="img-responsive"> </div>
+       <img src="{{ .Site.BaseURL }}/img/banner-01.jpg" class="img-responsive"> </div>
+    <div class="item"> <img src="{{ .Site.BaseURL }}/img/banner.jpg" class="img-responsive"> </div>
   </div>
 </section>
 {{ partial "demo.html" .}}
@@ -43,7 +43,7 @@
     <div class="inner-content">
       <h1 class="title"> Why <br>TheTao? </h1>
       <p class="sub-tile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="{{ .Page.Site.BaseURL }}/img/mobile-section02.png" class="mobileimage"> </div>
+      <img src="{{ .Site.BaseURL }}/img/mobile-section02.png" class="mobileimage"> </div>
   </div>
 </section>
 
@@ -66,8 +66,8 @@
 
 {{ partial "footer.html" .}}
 
-<script src='{{ .Page.Site.BaseURL }}/js/owl.carousel.min.js'></script>
-<script src="{{ .Page.Site.BaseURL }}/js/particles.min.js"></script>
-<script src="{{ .Page.Site.BaseURL }}/js/index.js"></script>
+<script src='{{ .Site.BaseURL }}/js/owl.carousel.min.js'></script>
+<script src="{{ .Site.BaseURL }}/js/particles.min.js"></script>
+<script src="{{ .Site.BaseURL }}/js/index.js"></script>
 </body>
 </html>
