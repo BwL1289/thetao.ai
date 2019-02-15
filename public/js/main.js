@@ -1,12 +1,19 @@
 $( document ).ready(function() {
+
+$('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(500);
+});
+
 $(".get-demo").click(function() {
 	 $("body").addClass('no-scroll')
-	 $(".slider-wrap").animate({left: '0px'});	
-	
+	 $(".slider-wrap").animate({left: '0px'});
+
 });
 $(".left-back, .close-button").click(function() {
-	 $("body").removeClass('no-scroll')								 
-	 $(".slider-wrap").animate({left: '100%'});		
+	 $("body").removeClass('no-scroll')
+	 $(".slider-wrap").animate({left: '100%'});
 });
 
 $(window).on("scroll", function() {
@@ -20,7 +27,7 @@ $(window).on("scroll", function() {
 });
 
 function setModalMaxHeight(element) {
-  this.$element     = $(element);  
+  this.$element     = $(element);
   this.$content     = this.$element.find('.modal-content');
   var borderWidth   = this.$content.outerHeight() - this.$content.innerHeight();
   var dialogMargin  = $(window).width() < 768 ? 20 : 60;
@@ -32,7 +39,7 @@ function setModalMaxHeight(element) {
   this.$content.css({
       'overflow': 'hidden'
   });
-  
+
   this.$element
     .find('.modal-body').css({
       'max-height': maxHeight,
@@ -69,9 +76,3 @@ function checkURL (abc) {
   return abc
   }
 }
-
- 
-
-
-
-

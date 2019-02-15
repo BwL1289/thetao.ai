@@ -38,7 +38,7 @@ setInterval(function() {
 
 addParticleEffect();
 
-var owl = $('#intro-home-screen');
+/*var owl = $('#intro-home-screen');
 owl.owlCarousel({
 
 autoplayTimeout: 5000,
@@ -51,7 +51,7 @@ items: 1,
 autoplay:true,
 autoplayHoverPause:false,
     loop:true
-});
+});*/
 $(".move-bottom-button").click(function() {
     $('html,body').animate({
        scrollTop: $("#context").offset().top}, 'slow');
