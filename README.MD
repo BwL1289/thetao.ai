@@ -1,6 +1,6 @@
 # TheTao.ai website
 
-## Installation to Run Locally
+## Installation & Run Locally
 
 ```
 Install Hugo: brew install hugo
@@ -8,7 +8,7 @@ cd to source
 hugo server -D
 ```
 
-## Installation to Deploy
+## Deploying to Production
 
 ```
 Install Hugo: brew install hugo
