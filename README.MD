@@ -23,7 +23,7 @@ This site is implemented using Hugo
 ## Site Improvements
 
 - Mobile friendly
-- HTTPS/SSL
+- HTTPS/SSL - FIXED
 - redirect to allow thetao.ai without wwww.
 - fix index.html
     - center sub title "using architectures..."
@@ -31,3 +31,4 @@ This site is implemented using Hugo
     - "why thetao"
 - make sure that mailchimp is connected to the form/reach out functionality
     - store in a db or sent to me via email
+- edit favicon
