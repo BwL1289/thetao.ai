@@ -1,2 +1,2 @@
 hugo
-mv ./public ./docs
+mv ./public ./docs/
