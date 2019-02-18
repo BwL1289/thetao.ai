@@ -29,6 +29,6 @@ This site is implemented using Hugo
     - "why thetao"
 - make sure that mailchimp is connected to the form/reach out functionality
     - store in a db or sent to me via email
-- edit favicon
+- edit favicon - FIXED
 - HTTPS/SSL - FIXED
 - redirect to allow thetao.ai without wwww. - FIXED
