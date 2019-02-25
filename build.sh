@@ -1,3 +1,3 @@
 hugo
-rm ./docs
+rm -rf ./docs
 mv ./public ./docs
