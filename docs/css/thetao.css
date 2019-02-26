@@ -132,7 +132,8 @@ html {
 
 .intro-sub-title {
     font-size: 33px;
-    line-height: 100%
+    line-height: 100%;
+    padding-right: 220px;
 }
 
 .intro-sub-title strong {
