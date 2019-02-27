@@ -24,8 +24,8 @@ This site is implemented using Hugo
 
 - Mobile friendly
 - fix index.html
-    - center sub title "using architectures..."
-        - fix line break when two words are used in cycling text
+    - fix line break when two words are used in cycling text
     - "why thetao"
 - make sure that mailchimp is connected to the form/reach out functionality
     - store in a db or sent to me via email
+- add portfolio page
