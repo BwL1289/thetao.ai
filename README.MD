@@ -29,3 +29,5 @@ This site is implemented using Hugo
 - make sure that mailchimp is connected to the form/reach out functionality
     - store in a db or sent to me via email
 - add portfolio page
+- add google analytics
+- add segment.com
