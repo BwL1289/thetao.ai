@@ -31,3 +31,7 @@ This site is implemented using Hugo
 - add portfolio page
 - add google analytics
 - add segment.com
+- Add animation?
+    1. https://codepen.io/soju22/pen/PLeLwo
+    2. https://firebase.google.com/ (1. https://firebase.google.com/styles/app.css:1)
+    3. https://codepen.io/MarioDesigns/pen/woJgeo
